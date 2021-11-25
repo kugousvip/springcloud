@@ -38,4 +38,8 @@ public class PaymentController {
             return new CommonResult(400,"查询失败，Id:"+id+",服务端口："+servicePort);
         }
     }
+    @GetMapping(value = "getPort")
+    public String getPort(){
+        return servicePort;
+    }
 }

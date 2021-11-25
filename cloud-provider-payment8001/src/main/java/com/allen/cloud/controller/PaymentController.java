@@ -58,4 +58,8 @@ public class PaymentController {
         }
         return discoveryClient;
     }
+    @GetMapping(value = "getPort")
+    public String getPort(){
+        return servicePort;
+    }
 }
