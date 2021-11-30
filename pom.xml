@@ -17,6 +17,7 @@
         <module>cloud-provider-payment8004</module>
         <module>cloud-consumerzk-order80</module>
         <module>cloud-provide-rconsul-payment8006</module>
+        <module>cloud-consumer-openfeign80</module>
     </modules>
     <packaging>pom</packaging>
 
